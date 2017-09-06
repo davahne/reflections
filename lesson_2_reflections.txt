@@ -2,3 +2,5 @@ What happens when you initialize a repository? Why do you need to do it?
 It will create a repository. You need to create in order to compile the files of your application in to a repository.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 Working directory is where all the files of your repository are located. You can then add specific files from the working directory to the staging area, where it can be packaged into a commit into the repository.
+How can you use the staging area to make sure you have one commit per logical change?
+Use git diff -staged to compare the most current commit and the files in the staging area to see what is going to be changed. Thus you can see if there will only be one logical change before committing
