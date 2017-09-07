@@ -10,3 +10,5 @@ How do the diagrams help you visualize the branch structure?
 As you progress with your repository, there will be countless branches, new commits in detached heads, new branches, and thus to help with all the branches and to see the reachabiliy of the commits, drawing a diagram will help see the full picture.
 What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
 merging two branches together will create  a single branch (master branch if merged with the master branch) that contains all the commits of both branches within reachability. We represent it in the diagram because it is essentially combining the two branches but the final merged branch contains all the merged commits.
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+some pro's is that it will combine all the previus commits together and add them to the single merged branch. Whereas manually, that is alot of code to add on to the master. 
