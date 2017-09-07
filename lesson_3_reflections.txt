@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+In the instance that you lose all your files locally, you have it up on Github. Also for other people to see and contribute to projects you have put up publically.
