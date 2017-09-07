@@ -15,3 +15,7 @@ a branch is when you create a new commit that you want separate from the master 
 What is the benefit of having a copy of the last known state of the remote stored locally?
 
 It is beneficial so that you can have it locally in case you would want to work on it withot internet access.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
+
+some ways to collabrate will be to always exchange copies of the repositories (prgorams). It will be easier to change things one at a time, but it will extremely hard to compile different contributions like you can with branches and mergin.
