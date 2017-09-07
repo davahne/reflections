@@ -8,3 +8,5 @@ What are some situations when branches would be helpful in keeping your history 
 Some situations would be when you are about to create an experimental feature, or another language version, or a drastic change. Branches help separate the branches from the master, and allow it to be more orgainzed an later merged to the master if successful
 How do the diagrams help you visualize the branch structure?
 As you progress with your repository, there will be countless branches, new commits in detached heads, new branches, and thus to help with all the branches and to see the reachabiliy of the commits, drawing a diagram will help see the full picture.
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+merging two branches together will create  a single branch (master branch if merged with the master branch) that contains all the commits of both branches within reachability. We represent it in the diagram because it is essentially combining the two branches but the final merged branch contains all the merged commits.
