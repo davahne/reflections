@@ -19,3 +19,7 @@ It is beneficial so that you can have it locally in case you would want to work 
 How would you collaborate without using Git or GitHub? What would be easier, and what would be harder?
 
 some ways to collabrate will be to always exchange copies of the repositories (prgorams). It will be easier to change things one at a time, but it will extremely hard to compile different contributions like you can with branches and mergin.
+
+When would you want to make changes in a separate branch rather than directly in master? What benefits does each approach have?
+
+You would wan to make changes in a separate branch because, for example if you are working on a bug, you still would want a working version that hasn't been fiddled around with which is your master.
